@@ -8,17 +8,20 @@ import vueRouter from 'vue-router';
 Vue.use(vueRouter);
 
 //3.1.0导入路由规则中对应的组件对象
-import login from '../src/component/account/login.vue';
-import register from '../src/component/account/register.vue';
+import home from '../src/component/home.vue';
+import shopcar from '../src/component/shopcar/car.vue';
 
 //3.1.1定义路由规则
 var router=new vueRouter({
 		//具体的路由指向
 		routes:[
-		{path:'/login',component:login},
-		{path:'/register',component:register}
+		{path:'/home',component:home},
+		{path:'/shopcar',component:shopcar}
 
-		]
+		],
+		/*改变路由激活时的class名称*/
+		linkActiveClass:'mui-active'
+
 	});
 
 
@@ -30,7 +33,9 @@ Vue.use(mintui);
 import 'mint-ui/lib/style.min.css';
 
 //5.0.0注册 MUI 的CSS 样式
-import '../static/mui/css/mui.min.css'
+import '../static/mui/css/mui.min.css';
+//6.0.0导入全局样式 site.css
+import '../static/css/site.css'
 
 new Vue({
 
