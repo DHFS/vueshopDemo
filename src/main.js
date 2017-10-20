@@ -15,6 +15,7 @@ import shopcar from '../src/component/shopcar/car.vue';
 var router=new vueRouter({
 		//具体的路由指向
 		routes:[
+		{path:'/',redirect:'/home'},
 		{path:'/home',component:home},
 		{path:'/shopcar',component:shopcar}
 
@@ -36,6 +37,11 @@ import 'mint-ui/lib/style.min.css';
 import '../static/mui/css/mui.min.css';
 //6.0.0导入全局样式 site.css
 import '../static/css/site.css'
+
+//7.0.0绑定 vue-resource ，自动在vue对象实例上诸如一个$http的对象使用ajax
+import vueResource from 'vue-resource';
+Vue.use(vueResource);
+
 
 new Vue({
 
