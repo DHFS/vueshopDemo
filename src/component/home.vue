@@ -17,7 +17,7 @@
 	        <span class="mui-icon mui-icon-home"></span>
 	        <div class="mui-media-body">新闻资讯</div></a></li>
 	<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-	        <span class="mui-icon mui-icon-email"><span class="mui-badge">5</span></span>
+	        <span class="mui-icon mui-icon-email"><!-- <span class="mui-badge">5</span> --></span>
 	        <div class="mui-media-body">图片分享</div></a></li>
 	<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
 	        <span class="mui-icon mui-icon-chatbubble"></span>
@@ -37,18 +37,7 @@
 	<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
 	        <span class="mui-icon mui-icon-info"></span>
 	        <div class="mui-media-body">about</div></a></li>
-	<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-	        <span class="mui-icon mui-icon-info"></span>
-	        <div class="mui-media-body">about</div></a></li>
-	<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-	        <span class="mui-icon mui-icon-info"></span>
-	        <div class="mui-media-body">about</div></a></li>
-	 <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-	        <span class="mui-icon mui-icon-info"></span>
-	        <div class="mui-media-body">about</div></a></li>
-	<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-	        <span class="mui-icon mui-icon-more"></span>
-	        <div class="mui-media-body">more</div></a></li>
+
 	</ul> 
 		</div>
 
@@ -78,9 +67,9 @@
 			},
 			methods:{
 				getimags(){
-				// var url='http://v.juhe.cn/toutiao/index';
-				var url1='http://gank.io/api/data/前端/20/5'
-				this.$http.get(url1,{
+				//var url='http://v.juhe.cn/toutiao/index';
+				var url='http://gank.io/api/data/前端/20/3'
+				this.$http.get(url,{
 				params:{
 				//type:'keji',key:"29511dc145c1471a0bd75247075d850f"
 				},

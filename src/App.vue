@@ -17,11 +17,11 @@
 				<span class="mui-tab-label">消息</span>
 			</router-link>
 			<router-link class="mui-tab-item" to="/shopcar">
-				<span class="mui-icon mui-icon-contact"><span class="mui-badge">0</span></span>
+				<span class="mui-icon iconfont icon-gouwuche"><span class="mui-badge">0</span></span>
 				<span class="mui-tab-label">购物车</span>
 			</router-link>
 			<router-link class="mui-tab-item" to="/tabbar-with-map">
-				<span class="mui-icon mui-icon-gear"></span>
+				<span class="mui-icon iconfont icon-sousuo"></span>
 				<span class="mui-tab-label">搜索</span>
 			</router-link>
 		</nav>

@@ -36,7 +36,9 @@ import 'mint-ui/lib/style.min.css';
 //5.0.0注册 MUI 的CSS 样式
 import '../static/mui/css/mui.min.css';
 //6.0.0导入全局样式 site.css
-import '../static/css/site.css'
+import '../static/css/site.css';
+//6.0.1 导入购物车和搜索两个阿里巴巴矢量图标
+import '../static/css/zititubiao/iconfont.css';
 
 //7.0.0绑定 vue-resource ，自动在vue对象实例上诸如一个$http的对象使用ajax
 import vueResource from 'vue-resource';
