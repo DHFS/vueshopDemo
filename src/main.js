@@ -10,6 +10,7 @@ Vue.use(vueRouter);
 //3.1.0导入路由规则中对应的组件对象
 import home from '../src/component/home.vue';
 import shopcar from '../src/component/shopcar/car.vue';
+import newslist from '../src/component/news/newslist.vue';
 
 //3.1.1定义路由规则
 var router=new vueRouter({
@@ -17,6 +18,7 @@ var router=new vueRouter({
 		routes:[
 		{path:'/',redirect:'/home'},
 		{path:'/home',component:home},
+		{path:'/news/newslist',component:newslist},
 		{path:'/shopcar',component:shopcar}
 
 		],
@@ -44,6 +46,13 @@ import '../static/css/zititubiao/iconfont.css';
 import vueResource from 'vue-resource';
 Vue.use(vueResource);
 
+
+
+//8.0.0定义一个全局的过滤器，实现日期格式化
+import moment from 'moment';
+Vue.filter('datefmt',function (input,fmtstring) {
+		return moment(input).format(fmtstring)
+});
 
 new Vue({
 

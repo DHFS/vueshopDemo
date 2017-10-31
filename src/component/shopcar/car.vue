@@ -1,9 +1,21 @@
 <template>
 	
 	
-	<div>
-	  购物车
-	</div>
+<div id="tmpl">
+			<ul>
+			<li>购物车</li>
+			<li>购物车</li>
+			<li>购物车</li>
+			<li>购物车</li>
+			<li>购物车</li>
+			<li>购物车</li>
+			<li>购物车</li>
+			<li>购物车</li>
+			<li>购物车</li>
+		
+		</ul>
+
+</div>
 
 </template>
 
